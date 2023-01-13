@@ -1,6 +1,5 @@
-unzip wsl-setup/wsl-local-setup.zip
-mv focrex-build.mk ../focrex-build.mk
-mv bxfg-build.mk ../bxfg-build.mk
-mv alias-setup.sh ../alias-setup.sh
-cd ../
-sudo rm -rf wsl-setup
+sudo chmod 777 -R ~/wsl-setup/
+mv ~/wsl-setup/focrex-build.mk ~/focrex-build.mk
+mv ~/wsl-setup/bxfg-build.mk ~/bxfg-build.mk
+mv ~/wsl-setup/alias-setup.sh ~/alias-setup.sh
+sudo rm -rf ~/wsl-setup
